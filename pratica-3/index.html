@@ -13,12 +13,19 @@
           <h1>ToDo List✏️📒</h1>
           <div id="add-task-container">
             <input id="task-input" type="text" />
-            <button id="add-btn" type="submit">+</button>
+            <button id="add-btn" onclick="addTask()" type="submit">+</button>
+          </div>
+          <div>
+            <ul>
+              <!-- <li class="task">
+                <span id="span-task" onclick="toggleTask(this)">Tarefa Exemplo</span>
+                <button id="btn-delete-task" onclick="deleteTask(this)" type="button">Delete</button>
+              </li> -->
+            </ul>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
     <script src="./script.js"></script>
   </body>
 </html>
