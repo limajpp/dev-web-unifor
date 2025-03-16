@@ -55,6 +55,14 @@ main section div h1 {
   font-size: 15px;
 }
 
+#add-btn:hover {
+  background-color: yellowgreen;
+}
+
+#btn-delete-task:hover {
+  background-color: lightpink;
+}
+
 section div ul {
   padding: 0px;
 }
