@@ -17,6 +17,6 @@ const addTask = function () {
   taskList.appendChild(item);
 };
 
-const deleteTask = function(btn) {
-    btn.parentElement.remove();
-}
+const deleteTask = function (btn) {
+  btn.parentElement.remove();
+};
