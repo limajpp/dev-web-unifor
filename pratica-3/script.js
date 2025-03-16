@@ -24,3 +24,6 @@ const deleteTask = function (btn) {
 const toggleTask = function (span) {
   span.style.setProperty("text-decoration", "solid black line-through 2px");
 };
+
+const saveTask = function () {};
+const loadTask = function () {};
