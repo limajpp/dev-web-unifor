@@ -34,19 +34,58 @@
           aria-label="Default select example"
         >
           <option selected>Escolha uma categoria</option>
-          <option value="1">Alimentação</option>
-          <option value="2">Transporte</option>
-          <option value="3">Lazer</option>
+          <option value="Alimentação">Alimentação</option>
+          <option value="Transporte">Transporte</option>
+          <option value="Lazer">Lazer</option>
         </select>
         <button
-          onclick="saveFields()"
+          onclick="saveDebt()"
           type="button"
           class="btn btn-primary btn-sm"
+          style="width: 50%"
         >
           Cadastrar
         </button>
+        <button
+          onclick="showDebts()"
+          type="button"
+          class="btn btn-primary btn-sm"
+          style="width: 75%"
+        >
+          Exibir Despesas
+        </button>
+        <button
+          onclick="showTotal()"
+          type="button"
+          class="btn btn-primary btn-sm"
+          style="width: 50%"
+        >
+          Exibir Total
+        </button>
       </div>
     </form>
+    <!-- <ol class="list-group list-group-numbered">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-start"
+        style="gap: 15px;"
+      >
+        <div class="ms-2 me-auto">
+          "Valor"
+        </div>
+        <span class="badge text-bg-primary rounded-pill">"Categoria"</span>
+      </li>
+    </ol> -->
+    <!-- <div class="card" style="width: 18rem">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Total: ${}</li>
+        <li class="list-group-item">Total Alimentação: ${}</li>
+        <li class="list-group-item">Total Transporte: ${}</li>
+        <li class="list-group-item">Total Lazer: ${}</li>
+      </ul>
+      <div class="card-footer">Cálculo dos Gastos</div>
+    </div> -->
+    <div id="output" style="margin-top: 30px"></div>
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </body>
 </html>

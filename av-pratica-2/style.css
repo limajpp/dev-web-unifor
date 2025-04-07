@@ -18,10 +18,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  gap: 15px;
 }
 
-select {
+select,
+ol {
   margin-top: 10px;
+}
+
+.card {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
