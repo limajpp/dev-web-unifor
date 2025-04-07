@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.secondary-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+select {
+  margin-top: 10px;
+}

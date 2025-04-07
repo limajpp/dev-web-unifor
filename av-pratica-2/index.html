@@ -10,8 +10,43 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1 class="display-5">Gastos Mensais</h1>
+    <form>
+      <div class="container" class="row mb-3">
+        <label class="col-sm-2 col-form-label">Valor</label>
+        <div class="col-sm-10">
+          <input id="input-valor" type="number" class="form-control" />
+        </div>
+      </div>
+      <div class="container" class="row mb-3">
+        <label class="col-sm-2 col-form-label">Descrição</label>
+        <div class="col-sm-10">
+          <input id="input-descricao" type="text" class="form-control" />
+        </div>
+      </div>
+      <div class="secondary-container">
+        <select
+          id="select-categoria"
+          class="form-select"
+          aria-label="Default select example"
+        >
+          <option selected>Escolha uma categoria</option>
+          <option value="1">Alimentação</option>
+          <option value="2">Transporte</option>
+          <option value="3">Lazer</option>
+        </select>
+        <button
+          onclick="saveFields()"
+          type="button"
+          class="btn btn-primary btn-sm"
+        >
+          Cadastrar
+        </button>
+      </div>
+    </form>
     <script src="./script.js"></script>
   </body>
 </html>
