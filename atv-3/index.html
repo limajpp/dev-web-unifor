@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <header>
+      <section id="sobre">
+        <div class="card" style="width: 50rem">
+          <img
+            src="./src/imgs/portfolio.png"
+            class="card-img-top"
+            alt="Imagem exibindo quatro funções de programação que representam uma metáfora a rotina do desenvolvedor, comer, dormir, desenvolver e repetir"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              🌌 Bem-vindo ao meu universo digital! Em algum momento entre
+              cafés, códigos e bugs insolúveis, nasceu este portfólio — um
+              espaço onde minhas ideias ganharam vida e meus projetos,
+              identidade. Me chamo João Pedro (mas pode chamar de JP), e aqui
+              você vai encontrar um pouco de tudo: algoritmos que resolvem
+              problemas, aplicações que facilitam vidas e testes que garantem
+              que tudo funcione direitinho. Sou um explorador do mundo da
+              computação, apaixonado por transformar lógica em soluções reais.
+              Cada linha de código neste portfólio tem uma história — seja ela
+              de uma madrugada estudando, uma sprint insana no trabalho ou
+              aquela epifania durante o banho. Este espaço é mais do que uma
+              vitrine: é um diário técnico disfarçado de portfólio. Fique à
+              vontade para clicar, ler, testar e, quem sabe, se inspirar.
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="projetos">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./src/imgs/projeto1.png"
+                class="d-block w-100"
+                alt="Imagem representando a aplicação Encenna"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Projeto TaskManager</h5>
+                <p>Aplicação Web</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./src/imgs/projeto2.png"
+                class="d-block w-100"
+                alt="Imagem ilustrativa de quatro computadores"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Projeto fetchService</h5>
+                <p>Microserviço</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./src/imgs/projeto3.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Projeto Encenna</h5>
+                <p>Aplicação Desktop</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <div class="b-example-divider"></div>
+    <footer id="rodape" class="bg-dark text-center text-white mt-5">
+      <div class="p-4 pb-0">
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://www.instagram.com/joaopedrocal17/"
+          role="button"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-464398222/"
+          role="button"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://github.com/limajpp"
+          role="button"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2025 Copyright: João Pedro Lima
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
